@@ -1,0 +1,31 @@
+{
+  "name": "curso-node",
+  "version": "1.0.0",
+  "description": "Learning proyect",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlejaArmen/Learn-NodeProyect.git"
+  },
+  "keywords": [
+    "curso",
+    "node",
+    "nodejs",
+    "polo"
+  ],
+  "author": "Leopoldo Alejandro Armendariz Ramirez Polo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlejaArmen/Learn-NodeProyect/issues"
+  },
+  "homepage": "https://github.com/AlejaArmen/Learn-NodeProyect#readme",
+  "dependencies": {
+    "picocolors": "1.0.1"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0"
+  }
+}
