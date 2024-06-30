@@ -5,11 +5,12 @@ GET http://localhost:1234/movies
 GET http://localhost:1234/movies/c8a7d63f-3b04-44d3-9d95-8782fd7dcfaf
 
 ### Recuperar las peliculas por genero
-GET http://localhost:1234/movies?genre=accion
+GET http://localhost:1234/movies?genre=action
 
 ### Crear un pelicula
 POST http://localhost:1234/movies
 Content-Type: application/json
+
 {
     "title": "The fight club",
     "year" : 1999,
@@ -17,7 +18,14 @@ Content-Type: application/json
     "poster" : "https://m.media-amazon.com/images/I/51v5ZpFyaFL._AC_.jpg",
     "duration" : 139,
     "genre": [
-        "drama",
-        "thriller"],
-    
+        "Drama",
+        "Thriller"]
+}
+
+### Actualizar una pelicula
+PATCH http://localhost:1234/movies/c8a7d63f-3b04-44d3-9d95-8782fd7dcfaf
+Content-Type: application/json
+
+{
+    "year" : 1993
 }
